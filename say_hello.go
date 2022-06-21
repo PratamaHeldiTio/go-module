@@ -1,5 +1,5 @@
 package go_module
 
-func SayHello() string {
-	return "hello world lgi"
+func SayHello(name string) string {
+	return "hello world lgi " + name
 }
